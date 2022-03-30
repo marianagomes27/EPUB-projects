@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pr SYSTEM "file:/C:/Users/Mariana/Desktop/4%C2%BA%20ano-1%C2%BA%20semestre/Publica%C3%A7%C3%A3o%20Eletr%C3%B3nica/aula%203-27-09-2019/PR.dtd">
+<pr>
+    <metadata>
+        <keyname>EPUB2019-A83222-T3</keyname>
+        <title>Arqueossítios do Nordeste Português</title>
+        <subtitle>Queries sobre os arqueossítios</subtitle>
+        <bdate>28/09/2019</bdate>
+        <edate>28/09/2019</edate>
+        <supervisor>
+            <name>José Carlos Ramalho</name>
+            <homepage>http://www4.di.uminho.pt/~jcr/</homepage>
+        </supervisor>
+    </metadata>
+    <workteam>
+        <member>
+            <name>Mariana Pereira Duarte Ferreira Gomes</name>
+            <mid>A83222</mid>
+            <email>a83222@alunos.uminho.pt</email>
+            <photo path=""/>
+        </member>
+    </workteam>
+    <abstract>
+        <p>O trabalho de casa nº3 consistiu em realizar o exercício 6 da ficha 3 <b>"Queries sobre arquessítios"</b>, 
+            tendo por objetivo a criação de queries com base no documento XML "Arqueossítios do Nordeste Português", bem como a especificação de um DTD para o mesmo.</p>
+        <p> Na realização das queries foi utilizado o <b>XPath</b>, tendo este sido desenvolvido para ser utilizado como um atributo de um documento XML e 
+        sendo a sua sintaxe uma combincação de linguagem de expressões e liguagem para a especificação de um caminho numa estrutura de diretorias.</p>
+        <p> Quanto ao segundo ponto do trabalho de casa, foi gerado um schema em DTD, através da ferramenta <i> Generate/Convert Schema</i> do Oxygen XML Editor, 
+            dado que um documento um documento XML válido tem um conjunto de regras associado, neste caso, o DTD. </p>
+    </abstract>
+    <deliverables>
+        <deliverable path="arq.dtd"> DTD </deliverable>
+        <deliverable path="arq.txt"> TXT </deliverable>
+        <deliverable path="http://www4.di.uminho.pt/~jcr/XML/didac/xmldocs/arq.xml">Arqueossítios do Nordeste Português (XML)</deliverable>
+        
+    </deliverables>
+</pr>

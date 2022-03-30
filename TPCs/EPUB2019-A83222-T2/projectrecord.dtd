@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!ELEMENT projectrecord (cabeçalho, WorkTeam, Abstract, Deliverables, data)>
+
+<!ELEMENT cabeçalho (keyname, title, subtitle, begindate, enddate, supervisor)>
+<!ELEMENT  keyname (#PCDATA) >
+<!ELEMENT  title (#PCDATA) >
+<!ELEMENT  subtitle (#PCDATA) >
+<!ELEMENT  begindate (#PCDATA) >
+<!ELEMENT  enddate (#PCDATA) >
+<!ELEMENT  supervisor (#PCDATA) >
+<!ATTLIST  supervisor
+    nome CDATA #REQUIRED
+    url CDATA #REQUIRED>
+
+
+<!ELEMENT WorkTeam (membro+) >
+<!ELEMENT membro (nome, email) >
+<!ELEMENT nome (#PCDATA) >
+<!ELEMENT email (#PCDATA) >
+
+<!ELEMENT Abstract (parágrafo+) >
+<!ELEMENT parágrafo (frase+)>
+<!ELEMENT  frase (#PCDATA|bold|itálico)* >
+<!ELEMENT bold (#PCDATA)>
+<!ELEMENT itálico (#PCDATA) >
+
+<!ELEMENT  Deliverables (link|ficheiro)+ >
+<!ELEMENT  link (#PCDATA) >
+<!ELEMENT  ficheiro (#PCDATA) >
+<!ATTLIST link
+    nome CDATA #REQUIRED
+    url CDATA #REQUIRED>
+    
+<!ATTLIST ficheiro
+    nome CDATA #REQUIRED
+    src CDATA #REQUIRED>
+    
+
+<!ELEMENT data (#PCDATA)>

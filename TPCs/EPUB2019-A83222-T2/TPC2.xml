@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE projectrecord SYSTEM "file:/C:/Users/Mariana/Desktop/projectrecord.dtd">
+<projectrecord>
+    <cabeçalho>
+        <keyname> PED_MICEI2002_TESES</keyname>
+        <title> Schema e Stylesheet para tratamento de teses em XML</title>
+        <subtitle> Relatório inserido nos trabalhos práticos da cadeira de PED do MICEI 2001/02 </subtitle>
+        <begindate> Setembro 2002</begindate>
+        <enddate> Setembro 2002</enddate>
+        <supervisor nome="José Carlos Ramalho" url="http://www4.di.uminho.pt/~jcr/"> </supervisor>
+    </cabeçalho>
+    <WorkTeam>
+        <membro>
+            <nome> Guilherme António Teixeira -</nome>
+            <email> guilherme.teixeira@neoplastica.com</email>
+        </membro>
+    </WorkTeam>
+    <Abstract>
+        <parágrafo>
+            <frase> O XML, validado pelo schema, juntamente com o potente processamento via XSLT, 
+                permite dispor de <itálico>facilidades acrescidas</itálico> no tratamento de informação de 
+                uma forma <bold> standard e partilhável.</bold></frase>
+            <frase>Estas são, além de outras evidentes vantagens, 
+                as que abrem caminho a uma mais que provável evolução desta tecnologia nos círculos comerciais e de investigação.</frase>
+            <frase> Outro facto importante, diz respeito à substituição de interfaces EDI por XML em aplicações bussiness oriented.</frase>
+        </parágrafo>
+        <parágrafo>
+            <frase> O trabalho apresentado contempla um <bold> schema, uma stylesheet, e a instância do schema</bold> em XML.</frase>
+            <frase> A instância é o próprio relatório.</frase>
+        </parágrafo>
+        <parágrafo>
+            <frase>O trabalho pretende definir uma <itálico>estrutura expedita e funcional</itálico> , passível de ser aplicada a um trabalho descritivo, 
+                como por exemplo uma tese. </frase>
+            <frase> Não é objectivo do trabalho criar uma implementação sistemática de todos os objectos possíveis, 
+                mas sim criar algumas utilizações mais comuns para exemplificar a potência destas linguagens.</frase>
+        </parágrafo>
+        <parágrafo>
+            <frase>Ficam neste trabalho em aberto algumas ideias, a serem aplicadas mais tarde a quando da escrita da tese, ou pré-tese, 
+                porque na verdade o facto de manter o documento num formato exportável para vários formatos, para várias plataformas, e anotado, 
+                garante qualquer tratamento no futuro, constituindo uma vantagem muito importante a ter em conta.</frase>
+        </parágrafo>
+    </Abstract>
+    <Deliverables>
+        <link nome= "Report (HTML version)" url="http://www4.di.uminho.pt/~jcr/PROJS/micei2002/guilherme/ped_micei2002.html"> </link>
+        <link nome= "Report (XML version)" url="http://www4.di.uminho.pt/~jcr/PROJS/micei2002/guilherme/ped_micei2002.xml"> </link>
+        <link nome= "XML Schema Definition (XSD)" url="http://www4.di.uminho.pt/~jcr/PROJS/micei2002/guilherme/ped_micei2002.xsd"> </link>
+        <link nome= "XML Schema Documentation (HTML)" url="http://www4.di.uminho.pt/~jcr/PROJS/micei2002/guilherme/schema_doc.html"> </link>
+        <ficheiro nome="XSLT StyleSheet file (XSLT)" src="ped_micei2002.xslt"> </ficheiro>
+        <ficheiro nome="XmlSpy Project Definitions (XML)" src="ped_micei2002.spp"> </ficheiro>
+    </Deliverables>
+    <data> 09-09-2002 </data>
+    
+</projectrecord>

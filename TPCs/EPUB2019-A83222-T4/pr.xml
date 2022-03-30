@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pr SYSTEM "file:/C:/Users/Mariana/Desktop/4%C2%BA%20ano-1%C2%BA%20semestre/Publica%C3%A7%C3%A3o%20Eletr%C3%B3nica/aula%203-27-09-19/PR.dtd">
+<pr>
+    <metadata>
+        <keyname> EPUB2019-A83222-T4</keyname>
+        <title> Arquivo Sonoro de Ernesto Veiga de Oliveira -XSL e HTML</title>
+        <subtitle> Relatório integrado na Unidade Curricular de Publicação Elétronica-TP4 </subtitle>
+        <bdate>08/10/2019</bdate>
+        <edate>09/10/2019</edate>
+        <supervisor>
+            <name>José Carlos Ramalho</name>
+            <homepage>http://www4.di.uminho.pt/~jcr/</homepage>
+        </supervisor>
+    </metadata>
+    <workteam>
+        <member>
+            <name>Mariana Pereira Duarte Ferreira Gomes</name>
+            <mid>A83222</mid>
+            <email>a83222@alunos.uminho.pt</email>
+            <photo path=""/>
+        </member>
+    </workteam>
+    <abstract>
+        <p>O presente trabalho de casa consistiu em associar a um documento XML (<i>Extensible Markup Language</i>) um documento XSL (<i>Extensible Stylesheet Language</i>), 
+            criando, consequentemente, um ficheiro HTML (<i>HyperText Markup Language</i>) para o mesmo.</p>
+        <p> Inicialmente, analisou-se o ficheiro XML fornecido pelo docente, que contém um arquivo de sonoro de músicas portuguesas. De seguida, 
+            foi criado um XSLT (<i>Extensible Stylesheet Language for Transformation</i>) ao qual se associou o XML em questão, no qual foram definidos os parâmetros de formatação pretendidos para a página HTML 
+            e onde foram também organizados os dados de cada música.</p>
+        <p> Por fim, foi então criada a página web pretendida, com a estrutura e organização desejadas. Todos os ficheiros mencionados anteriormente encontram-se na secção <i>"Deliverables" </i>.</p>
+    </abstract>
+    <deliverables>
+        <deliverable url="arq-son-EVO.xml"> Arquivo Sonoro de Ernesto Veiga de Oliveira (XML)</deliverable>
+        <deliverable url="arq-son.xsl"> Arquivo Sonoro de Ernesto Veiga de Oliveira (XSL)</deliverable>
+        <deliverable url="arq-son-EVO.html"> Arquivo Sonoro de Ernesto Veiga de Oliveira (HTML)</deliverable>
+        <deliverable url="pr.xml"> Project Record (XML)</deliverable>
+        <deliverable url="pr.xsl"> Project Record (XSL)</deliverable>
+       
+        
+    </deliverables>
+</pr>
