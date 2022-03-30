@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<regulamento xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="file:/C:/Users/Mariana/Desktop/TESTE/Questao%202/regulamento.xsd">
+    <apresentacao>
+        <designacao> TRAIL DAS ANDORINHAS (4ª edição) – 15 de DEZEMBRO DE 2019 </designacao>
+        <tipoprova>  Trail Running </tipoprova>
+        <distancia> Trail Longo – 25Kms | Trail Curto 10kms – Caminhada – 8Kms </distancia>
+    </apresentacao>
+    <organizacao>
+        <pontosrelevantes> Evento organizado pelo GRUPO DESPORTIVO DA GOMA, em parceria com a Câmara
+            Municipal da Póvoa de Lanhoso. </pontosrelevantes>
+        <pontosrelevantes> Gestão de inscrições da responsabilidade da PROZIS e cronometragem e classificações
+            da CHRONO.  </pontosrelevantes>
+    </organizacao>
+    <recomendacoes>
+        <recomendacao> É preciso ter a condição física adequada às características desta prova. </recomendacao>
+        <recomendacao>É imprescindível beber em todos os abastecimentos e alimentar-se convenientemente. </recomendacao>
+        <recomendacao>Devido às características tão especiais da prova, é recomendável a utilização de calçado
+            e roupa adequada. 
+        </recomendacao>
+        <recomendacao> O participante deverá ter em conta a necessidade de levar abastecimento líquido e sólido
+            adicional pessoalmente. 
+        </recomendacao>
+        <recomendacao> O dorsal do atleta é pessoal e intransmissível e deve ser usado á frente do atleta e de
+            preferência a altura do peito, não é permitida qualquer alteração do dorsal sob pena de
+            desclassificação. </recomendacao>
+        
+        
+    </recomendacoes>
+    <inscricoes>
+        <info> A inscrição será feita através da página https://www.prozis.com/pt/pt/. No mesmo,
+            consta toda a informação da prova. 
+        </info>
+        <precos>
+            <regulares> TRAIL LONGO = 12,5€* , TRAIL CURTO = 10€* ,CAMINHADA = 5€*</regulares>
+            <especiais> Grupos com 10 ou mais elementos * – Desconto de 10% sobre a opção seleccionada e
+                referente à fase de inscrição. (devem solicitar ref. com desconto para
+                geral.cronochip@gmail.com) </especiais>
+        </precos>
+        <periodo> A partir de 1 de Dezembroo de 2019 as inscrições sofrem um agravamento de 5€
+            respectivamente. A partir desta mesma data, não serão aceites alterações/trocas de
+            distâncias, atletas e/ou equipas, assim como alteração de nome de equipa.  </periodo>
+        <materialincluido>
+            <material> Dorsal 
+            </material>
+            <material>Oferta alusiva ao evento 
+            </material>
+            <material> Cronometragem/classificações (somente para as provas de Trail Longo e Trail Curto) </material>
+            <material> Seguro de acidentes pessoal </material>
+            <material> Abastecimentos (durante e no final da prova) </material>
+            <material>Banhos/vestiários </material>
+            <material> Massagem desportiva, no final da prova mediante disponibilidade dos
+                massagistas presentes. 
+            </material>
+        </materialincluido>
+        <paragrafos>Nota: Os menores deverão entregar o termo de responsabilidade, devidamente preenchido
+            e assinado pelo tutor ou encarregado de educação, aquando do levantamento do dorsal;
+            no acto do levantamento do dorsal só é necessário fazer-se acompanhar pelo documento
+            de identificação. </paragrafos>
+        <paragrafos> * Inclui 1 OFERTA (tshirt ou saco telemóvel impermeável, ou ainda outra oferta que a
+            organização venha a conseguir) alusiva ao IV Trail das Andorinhas; Outra ofertas que a
+            organização venha a conseguir junto dos patrocinadores. </paragrafos>
+       
+        <paragrafos> Não é possível ceder a participação a um terceiro em nenhuma das provas.  </paragrafos>
+        
+        <paragrafos> As inscrições não pagas após a fase de inscrição, serão anuladas e referência Multibanco
+            bloqueadas, tendo o atleta de realizar uma nova inscrição sob nova fase inscrição! </paragrafos>
+        
+        <paragrafos> A organização assume a responsabilidade de entregar as ofertas do evento no
+            secretariado nas inscrições efetuadas e pagas até 1 de Dezembro de 2019. A partir desta
+            data, a organização aceita inscrições com agravamento do valor e sem garantias de
+            conseguir entregar as ofertas. 
+        </paragrafos>
+        <paragrafos> A partir de 1 de Dezembro de 2019, não serão aceites alterações/trocas de distâncias,
+            atletas e/ou equipas, assim como alteração de nome de equipa. 
+        </paragrafos>
+        
+        <trail>
+            <longo>
+                <infoespecifica> participantes com idades iguais ou superiores a 16 anos, obtida a 31 de
+                    Dezembro do presente ano. 
+                </infoespecifica>
+            </longo>
+            <curto>
+                <infoespecifica>participantes sem limitação de idade, desde que os menores se
+                    façam acompanhar por um adulto. </infoespecifica>
+            </curto>
+            <caminhada>
+                <infoespecifica> participantes sem limitação de idade, desde que os menores se
+                    façam acompanhar por um adulto. </infoespecifica>
+            </caminhada>
+        </trail>
+    </inscricoes>
+    <dataehora>
+        <trail>
+            <longo>
+                <infoespecifica>  8:30h </infoespecifica>
+            </longo>
+            <curto>
+                <infoespecifica> 9:00h </infoespecifica>
+            </curto>
+            <caminhada>
+                <infoespecifica> 9:00h </infoespecifica>
+            </caminhada>
+        </trail>
+    </dataehora>
+    <percurso> Trail ; Trail Curto ; Caminhada (serão disponibilizados na página do Facebook do evento). </percurso>
+    <materialobrigatorio>
+        <trail>
+            <longo>
+                <infoespecifica> Depósito de água ou equivalente com 1 litro de capacidade, no mínimo;
+                    Telemóvel; Manta Térmica;</infoespecifica>
+            </longo>
+            <curto>
+                <infoespecifica> Depósito de água ou equivalente com 0,5 litro de capacidade, no mínimo;
+                    Telemóvel; Manta Térmica. 
+                </infoespecifica>
+            </curto>
+            <caminhada>
+                <infoespecifica> Telemóvel 
+                </infoespecifica>
+            </caminhada>
+        </trail>
+        <infoadicional> Penalização de 30 minutos pela falta de qualquer tipo material acima referido, no caso da
+            vertente competitiva. A prova é realizada numa época em que as condições climatéricas
+            podem ser de frio e chuva, pelo facto alertamos assim os participantes que cumpram este
+            ponto para o seu próprio bem-estar e segurança. </infoadicional>
+    </materialobrigatorio>
+    <marcacao>
+        <pontosrelevantes>  O percurso estará marcado com fitas de plástico de cor anunciada 15 minutos antes da
+            partida pelo director da prova, assim como placas de sinalização, sendo obrigatória a
+            passagem pelos controles estabelecidos</pontosrelevantes>
+        <pontosrelevantes>  A cronometragem será efetuada de forma eletrónica. O chip estará no situado no dorsal. </pontosrelevantes>
+    </marcacao>
+    <tempolimite>
+        <trail>
+            <longo>
+                <infoespecifica> O tempo máximo de conclusão do Trail Longo será de 4 horas. Na zona de separação de
+                    percursos, os atletas do Trail que passarem após a hora estipulada antes da partida pelo
+                    director de prova, serão encaminhados para o percurso do Trail Curto, cuja
+                    classificação/cronometragem serão nesse caso contabilizadas como Trail Curto. 
+                    Os participantes do Trail Longo que não passarem num determinado ponto do percurso
+                    até determinada hora anunciada pela organização (após a conclusão de 2/3 do percurso)
+                    serão aconselhados a abandonar a prova, pois nem a organização, nem os serviços de
+                    assistência podem garantir a sua cobertura. Assim, os “Corredores Vassoura” ou o
+                    responsável de cada controle terão poder para retirar da prova qualquer corredor se o seu
+                    tempo na corrida ou se o seu estado de saúde assim aconselhar. </infoespecifica>
+            </longo>
+            <curto>
+                <infoespecifica> No Trail Curto o tempo de conclusão será de 2,5 horas; 
+                </infoespecifica>
+            </curto>
+            <caminhada>
+                <infoespecifica> Não há informação especificada. </infoespecifica>
+            </caminhada>
+        </trail>
+    </tempolimite>
+    <abastecimentos>
+        <trail>
+            <longo>
+                <infoespecifica> Abastecimento Líquido aos 5kms, Líquido e sólidos aos 15kms e 25kms;</infoespecifica>
+            </longo>
+            <curto>
+                <infoespecifica>Abastecimento Líquido aos 5kms, Liquido e sólidos aos 10kms; 
+                </infoespecifica>
+            </curto>
+            <caminhada>
+                <infoespecifica> Não há informação.</infoespecifica>
+            </caminhada>
+        </trail>
+        <paragrafos> (pontos que podem ser revistos, mas que estarão assinalados no dorsal no dia da prova) 
+        </paragrafos>
+    </abastecimentos>
+    <premios>
+        <localehoraent> A cerimónia de entrega de prémios será realizada junto à zona de meta, com previsão
+            para as 13h30. A cerimónia protocolar será efetuada 15 minutos após o 3ª atleta referente
+            a cada escalão terminar a prova, e quando as condições para tal estiverem reunidas. </localehoraent>
+        <categorias>
+            <categoria>
+                <designacao> Masculinos: </designacao>
+                <descricao> MSeniores (até 39 anos) – Troféu (1º, 2º e 3º),M40 (40 a 49 anos) – Troféu (1º, 2º e 3º), M50 (+ de 50 anos, inclusive) – Troféu (1º, 2º e 3º) </descricao>
+            </categoria>
+            <categoria>
+                <designacao> Femininos: </designacao>
+                <descricao> FSeniores (até 39 anos) – Troféu (1º, 2º e 3º), F40 (40 a 49 anos) – Troféu (1º, 2º e 3º), F50 (+ de 50 anos, inclusive) – Troféu (1º, 2º e 3º) 
+                </descricao>
+            </categoria>
+            <categoria>
+                <designacao> Equipes </designacao>
+                <descricao> 3 primeiras equipas - (Trail e Trail Curto) – Troféu (1º, 2º e 3º) 
+                </descricao>
+            </categoria>
+            
+        </categorias>
+        <classificacao> Classificação por Equipas: contam os tempos dos 3 melhores atletas na classificação
+            geral, (não há distinção de sexo ou idade). </classificacao>
+        <premio> Equipa mais representada: Prémio para a equipe com mais elementos inscritos em
+            prova. 
+        </premio>
+        <periodocorrecao> Pedidos de Correção: Os resultados provisórios da classificação geral de cada prova,
+            serão publicados pela organização no seu site ou página, e será dado um prazo de 24h
+            após a sua publicação, para que os participantes dirijam à Organização, os seus pedidos
+            de correção. Deverão fazer a sua reclamação, através do envio de um e-mail para o
+            endereço geral.cronochip@gmail.com</periodocorrecao>
+        <responsabilidade>
+            <pontosrelevantes> Todos os participantes serão cobertos por seguro de acidentes pessoais.</pontosrelevantes>
+            <pontosrelevantes> Os participantes serão responsáveis de todas as ações susceptíveis de produzir danos
+                materiais, morais ou de saúde a si mesmos e/ou a terceiros. </pontosrelevantes>
+            <pontosrelevantes> A organização declina toda a responsabilidade em caso de acidente, negligência, roubo,
+                assim como dos objetos e valores de cada participante. 
+            </pontosrelevantes>
+            <pontosrelevantes> A organização reserva-se o direito a realizar as modificações que considere necessárias
+                dependendo das diferentes condições, assim como à suspensão da prova se as condições
+                meteorológicas assim o obrigarem, ou devido a força maior. 
+            </pontosrelevantes>
+            <pontosrelevantes> Os participantes ficam obrigados a auxiliar os acidentados e a respeitar as regras de
+                viação nos cruzamentos da estrada. </pontosrelevantes>
+            
+        </responsabilidade>
+    </premios>
+    <direitosimagem> O participante, ao proceder à inscrição, autoriza a cedência, de forma gratuita e
+        incondicional, dos direitos de utilização da sua imagem captada nas filmagens que terão
+        lugar durante o evento, autorizando a sua reprodução em peças comunicacionais de
+        apoio. </direitosimagem>
+    <cancelamento>
+        <paragrafos> O cancelamento do evento pode ocorrer derivado a factores externos à organização:
+            catástrofes naturais, greves, manifestações, impossibilidade de usar as vias de circulação
+            de trânsito, impossibilidade de usar telecomunicações, restrições do governo, nova
+            legislação. Nestes casos a organização reserva-se no direito de nos 30 dias seguintes à
+            data prevista para a realização do evento emitir um parecer acerca das acções a serem
+            tomadas resultantes da gravidade do cancelamento. </paragrafos>
+        <paragrafos> A organização reserva-se ao direito modificar o presente regulamento, sem aviso prévio,
+            desde que a alteração respeite os princípios pelos quais se rege este evento. Do mesmo
+            modo, que organização tem o direito de tomar decisões acerca de parâmetros não
+            mencionados/omitidos deste regulamento. </paragrafos>
+        
+    </cancelamento>
+    <responsabilidade>
+        <paragrafos> Todos os atos no evento deverão ser norteados por um completo fair-play, assumido pela
+            organização e os concorrentes, pelo fato de aceitarem este regulamento ao inscrever-se,
+            assumindo respeito pelo desafio, entreajuda e respeito pelos outros concorrentes,
+            organizadores e colaboradores; respeito pelo ambiente natural em que decorrem
+            procurando um impacto ambiental nulo. 
+        </paragrafos>
+        <paragrafos> Qualquer atitude anti-desportiva, de desrespeito aos organizadores, voluntários, público,
+            demais competidores, natureza (depositar lixo voluntariamente no meio ambiente), será
+            punida rigorosamente com a desclassificação do atleta, sem direito a recursos ou
+            apelações de qualquer espécie. </paragrafos>
+    </responsabilidade>
+    <outros> Este regulamento ainda pode ser alterado, cuja objectividade centra-se na actualização da
+        informação. </outros>
+</regulamento>

@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+
+    <xs:element name="trail">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="longo">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="infoespecifica" type="xs:string"/>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="curto">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="infoespecifica" type="xs:string"/>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element minOccurs="0" name="caminhada">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="infoespecifica" type="xs:string"/>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="regulamento">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="apresentacao">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="designacao" type="xs:string"/>
+                            <xs:element name="tipoprova" type="xs:string"/>
+                            <xs:element name="distancia" type="xs:string"/>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="organizacao" type="xs:string"/>
+                <xs:element name="recomendacoes">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element maxOccurs="unbounded" name="recomendacao" type="xs:string"/>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="inscricoes">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="info" type="xs:string"/>
+                            <xs:element name="precos">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="regulares"/>
+                                        <xs:element name="especiais"/>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                            <xs:element name="periodo" type="xs:string"/>
+                            <xs:element name="materialincluido">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element maxOccurs="unbounded" name="material"
+                                            type="xs:string"/>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="dataehora">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element ref="trail"/>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="percurso" type="xs:string"/>
+                <xs:element name="materialobrigatorio">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element ref="trail"/>
+                            <xs:element name="infoadicional"/>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="marcacao" type="xs:string"/>
+                <xs:element name="tempolimite">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element ref="trail"/>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="abastecimentos">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element ref="trail"/>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="premios">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="localehoraent" type="xs:string"/>
+                            <xs:element name="categorias">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element maxOccurs="unbounded" name="categoria">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                  <xs:element name="designacao" type="xs:string"/>
+                                                  <xs:element name="descricao" type="xs:string"/>
+                                                </xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                            <xs:element name="classificacao" type="xs:string"/>
+                            <xs:element name="premio" type="xs:string"/>
+                            <xs:element name="periodocorrecao" type="xs:string"/>
+                            <xs:element name="responsabilidade" type="xs:string"/>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="direitosimagem" type="xs:string"/>
+                <xs:element name="cancelamento" type="xs:string"/>
+                <xs:element name="responsabilidade" type="xs:string"/>
+                <xs:element name="outros" type="xs:string"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>

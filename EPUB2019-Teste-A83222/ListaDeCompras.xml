@@ -1,0 +1,340 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListaCompras xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="file:/C:/Users/Mariana/Desktop/TESTE%20PE/Teste%20Mola-Minha%20Resolu%C3%A7%C3%A3o/Listacompras.xsd">
+    <produto>
+        <designacao>Courguettes</designacao>
+        <categoria>Frutas e Legumes</categoria>
+        <quantidade>
+            <valor> 3 </valor>
+            <unidade> unidade</unidade>
+        </quantidade>
+        <precoRef> 1 </precoRef>
+    </produto>
+    
+    <produto>
+        <designacao>Nabos</designacao>
+        <categoria>Frutas e Legumes</categoria>
+        <quantidade>
+            <valor> 3 </valor>
+            <unidade> unidade</unidade>
+        </quantidade>
+        <precoRef> 1.3 </precoRef>
+    </produto>
+    <produto>
+        <designacao>Cenouras</designacao>
+        <categoria>Frutas e Legumes</categoria>
+        <quantidade>
+            <valor> 8 </valor>
+            <unidade> unidade</unidade>
+        </quantidade>
+        <precoRef> 1.3 </precoRef>
+    </produto>
+    <produto>
+        <designacao>Cebolas</designacao>
+        <categoria>Frutas e Legumes</categoria>
+        <quantidade>
+            <valor> 10 </valor>
+            <unidade> unidade</unidade>
+        </quantidade>
+        <precoRef> 1.3 </precoRef>
+    </produto>
+    <produto>
+        <designacao>Batata</designacao>
+        <categoria>Frutas e Legumes</categoria>
+        <quantidade>
+            <valor> 3 </valor>
+            <unidade> Kg </unidade>
+        </quantidade>
+        <precoRef> 1.3 </precoRef>
+    </produto>
+    <produto>
+        <designacao>Laranja</designacao>
+        <categoria>Frutas e Legumes</categoria>
+        <quantidade>
+            <valor> 2 </valor>
+            <unidade> Kg</unidade>
+        </quantidade>
+        <precoRef> 1.3 </precoRef>
+    </produto>
+    <produto>
+        <designacao>Kiwis</designacao>
+        <categoria>Frutas e Legumes</categoria>
+        <quantidade>
+            <valor> 6 </valor>
+            <unidade> unidade</unidade>
+        </quantidade>
+        <precoRef> 1.3 </precoRef>
+    </produto>
+    <produto>
+        <designacao>Pêras</designacao>
+        <categoria>Frutas e Legumes</categoria>
+        <quantidade>
+            <valor> 5 </valor>
+            <unidade> unidade</unidade>
+        </quantidade>
+        <precoRef> 1.3 </precoRef>
+    </produto>
+    <produto>
+        <designacao>Diospiros</designacao>
+        <categoria>Frutas e Legumes</categoria>
+        <quantidade>
+            <valor> 3 </valor>
+            <unidade> unidade</unidade>
+        </quantidade>
+        <precoRef> 1.3 </precoRef>
+    </produto>
+    <produto>
+        <designacao>Bananas</designacao>
+        <categoria>Frutas e Legumes</categoria>
+        <quantidade>
+            <valor> 8 </valor>
+            <unidade> unidade</unidade>
+        </quantidade>
+        <precoRef> 1.3 </precoRef>
+    </produto>
+    <produto>
+        <designacao>Tangerinas</designacao>
+        <categoria>Frutas e Legumes</categoria>
+        <quantidade>
+            <valor> 12</valor>
+            <unidade> unidade</unidade>
+        </quantidade>
+        <precoRef> 1.3 </precoRef>
+    </produto>
+    
+    <!-- peixe-->
+    <produto>
+        <designacao>Robalo</designacao>
+        <categoria>Peixe</categoria>
+        <quantidade>
+            <valor> 1 </valor>
+            <unidade> unidade</unidade>
+        </quantidade>
+        <precoRef> 5.3 </precoRef>
+    </produto>
+    <produto>
+        <designacao>Postas de Salmão</designacao>
+        <categoria>Peixe</categoria>
+        <quantidade>
+            <valor> 5 </valor>
+            <unidade> unidade</unidade>
+        </quantidade>
+        <precoRef> 7.3 </precoRef>
+    </produto>
+    <produto>
+        <designacao>Douradas</designacao>
+        <categoria>Peixe</categoria>
+        <quantidade>
+            <valor> 2 </valor>
+            <unidade> unidade</unidade>
+        </quantidade>
+        <precoRef> 5.3 </precoRef>
+    </produto>
+    
+    <!-- carne -->
+    <produto>
+        <designacao>Carne picada</designacao>
+        <categoria>Carne</categoria>
+        <quantidade>
+            <valor> 400 </valor>
+            <unidade> g </unidade>
+        </quantidade>
+        <precoRef> 3.3 </precoRef>
+    </produto>
+    <produto>
+        <designacao>Bifes de perú</designacao>
+        <categoria>Carne</categoria>
+        <quantidade>
+            <valor> 600 </valor>
+            <unidade> g </unidade>
+        </quantidade>
+        <precoRef> 3.3 </precoRef>
+    </produto>
+    <produto>
+        <designacao>Pá de Porco</designacao>
+        <categoria>Carne</categoria>
+        <quantidade>
+            <valor> 1 </valor>
+            <unidade> unidade </unidade>
+        </quantidade>
+        <precoRef> 6.3 </precoRef>
+    </produto>
+    
+    
+    <produto>
+        <designacao>Óleo</designacao>
+        <categoria>Condimentos</categoria>
+        <quantidade>
+            <valor> 1</valor>
+            <unidade> l </unidade>
+        </quantidade>
+        <precoRef> 1.5 </precoRef>
+    </produto>
+    
+    
+    <produto>
+        <designacao>Azeite</designacao>
+        <categoria>Condimentos</categoria>
+        <quantidade>
+            <valor> 3</valor>
+            <unidade> l </unidade>
+        </quantidade>
+        <precoRef> 3 </precoRef>
+    </produto>
+    
+    <produto>
+        <designacao>Frasco de ketchup</designacao>
+        <categoria>Condimentos</categoria>
+        <quantidade>
+            <valor> 1</valor>
+            <unidade> unidade </unidade>
+        </quantidade>
+        <precoRef> 2 </precoRef>
+    </produto>
+    <produto>
+        <designacao>Frasco de Maionese</designacao>
+        <categoria>Condimentos</categoria>
+        <quantidade>
+            <valor> 1</valor>
+            <unidade> unidade </unidade>
+        </quantidade>
+        <precoRef> 2.4 </precoRef>
+    </produto>
+    
+    
+    
+    <produto>
+        <designacao>Broa</designacao>
+        <categoria>Padaria</categoria>
+        <quantidade>
+            <valor> 500</valor>
+            <unidade> g </unidade>
+        </quantidade>
+        <precoRef> 1 </precoRef>
+    </produto>
+    
+    <produto>
+        <designacao>Bijous</designacao>
+        <categoria>Padaria</categoria>
+        <quantidade>
+            <valor> 12</valor>
+            <unidade> unidade </unidade>
+        </quantidade>
+        <precoRef> 1 </precoRef>
+    </produto>
+    <produto>
+        <designacao>Pão da Avó</designacao>
+        <categoria>Padaria</categoria>
+        <quantidade>
+            <valor> 1</valor>
+            <unidade> unidade </unidade>
+        </quantidade>
+        <precoRef> 0.20 </precoRef>
+    </produto>
+    
+    
+    <produto>
+        <designacao>Embalagem de SKIP</designacao>
+        <categoria>Limpeza</categoria>
+        <quantidade>
+            <valor> 1 </valor>
+            <unidade> unidade </unidade>
+        </quantidade>
+        <precoRef> 3.2 </precoRef>
+    </produto>
+    
+    <produto>
+        <designacao>Detergente Lava-Tudo</designacao>
+        <categoria>Limpeza</categoria>
+        <quantidade>
+            <valor> 3 </valor>
+            <unidade> l </unidade>
+        </quantidade>
+        <precoRef> 2.5 </precoRef>
+    </produto>
+    
+    
+    <produto>
+        <designacao>Arroz</designacao>
+        <categoria>Outros</categoria>
+        <quantidade>
+            <valor> 2 </valor>
+            <unidade> Kg </unidade>
+        </quantidade>
+        <precoRef> 1.4 </precoRef>
+    </produto>
+    
+    
+    
+    <produto>
+        <designacao>Arroz</designacao>
+        <categoria>Outros</categoria>
+        <quantidade>
+            <valor> 1 </valor>
+            <unidade> Kg </unidade>
+        </quantidade>
+        <precoRef> 0.89 </precoRef>
+    </produto>
+    
+    
+    <produto>
+        <designacao>Açúcar</designacao>
+        <categoria>Outros</categoria>
+        <quantidade>
+            <valor> 1 </valor>
+            <unidade> Kg </unidade>
+        </quantidade>
+        <precoRef> 0.70 </precoRef>
+    </produto>
+    
+    
+    <produto>
+        <designacao>Sal</designacao>
+        <categoria>Outros</categoria>
+        <quantidade>
+            <valor> 0.5 </valor>
+            <unidade> Kg </unidade>
+        </quantidade>
+        <precoRef> 0.30 </precoRef>
+    </produto>
+    
+    
+    <produto>
+        <designacao>Cardeno A4</designacao>
+        <categoria>Outros</categoria>
+        <quantidade>
+            <valor> 2 </valor>
+            <unidade> unidade </unidade>
+        </quantidade>
+        <precoRef> 2.7 </precoRef>
+    </produto>
+    
+    <produto>
+        <designacao>Bloco A5</designacao>
+        <categoria>Outros</categoria>
+        <quantidade>
+            <valor> 3 </valor>
+            <unidade> unidade </unidade>
+        </quantidade>
+        <precoRef> 1.7 </precoRef>
+    </produto>
+    
+    <produto>
+        <designacao>Lápis</designacao>
+        <categoria>Outros</categoria>
+        <quantidade>
+            <valor> 2</valor>
+            <unidade> unidade </unidade>
+        </quantidade>
+        <precoRef> 0.7 </precoRef>
+    </produto>
+    <produto>
+        <designacao>Canetas</designacao>
+        <categoria>Outros</categoria>
+        <quantidade>
+            <valor> 3 </valor>
+            <unidade> unidade </unidade>
+        </quantidade>
+        <precoRef> 2.7 </precoRef>
+    </produto>
+</ListaCompras>

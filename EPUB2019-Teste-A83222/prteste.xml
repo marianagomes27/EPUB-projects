@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pr SYSTEM "file:/C:/Users/Mariana/Desktop/4%C2%BA%20ano-1%C2%BA%20semestre/Publica%C3%A7%C3%A3o%20Eletr%C3%B3nica/aula%203-27-09-19/PR.dtd">
+<pr>
+    <metadata>
+        <keyname> EPUB2019-A83222-TESTE</keyname>
+        <title> LISTA DE COMPRAS E REGULAMENTO DE PROVAS DESPORTIVAS</title>
+        <subtitle> Relatório integrado na Unidade Curricular de Publicação Elétronica-TESTE </subtitle>
+        <bdate>18/10/2019</bdate>
+        <edate>23/10/2019</edate>
+        <supervisor>
+            <name>José Carlos Ramalho</name>
+            <homepage>http://www4.di.uminho.pt/~jcr/</homepage>
+        </supervisor>
+    </metadata>
+    <workteam>
+        <member>
+            <name>Mariana Pereira Duarte Ferreira Gomes</name>
+            <mid>A83222</mid>
+            <email>a83222@alunos.uminho.pt</email>
+            <photo path="fotopr.png"/>
+        </member>
+    </workteam>
+    <abstract>
+        <p> O presente teste consistiu em duas questões: a primeira relativa a uma lista de compras e a segunda relativa a um regulamento de prova desportiva.</p>
+        <p> No que diz respeito à primeira questão, esta consistia em realizar um XSD, um XML e um XSL que permite a concretização de uma página html relativa a uma lista de compras 
+            especificadas no enunciado da questão. O XSL permitiu a organização dos dados relativos a essa mesma lista.</p>
+        <p> Relativamente à segunda questão, esta consistia em realizar um XSD, um XML e um XSL que permite a concretização de um pdf relativo a uma prova desportiva. Foi fornecido
+            um PDF base para análise e concretização dos ficheiros mencionados. O XSL permitiu a organização dos dados relativos a essa mesma lista.</p>
+        
+    </abstract>
+    <deliverables>
+        <deliverable url="listadecompras.html"> Lista de compras (HTML)</deliverable>
+        <deliverable url="ListaDeCompras.xsl"> Lista de compras (xsl)</deliverable>
+        <deliverable url="ListaDeCompras.xml"> Lista de compras (xml) </deliverable>
+        <deliverable url="Listacompras.xsd"> Lista de compras (xsd) </deliverable>
+        <deliverable url="regulamento.xsd"> reggulamento (xsd) </deliverable>
+        <deliverable url="regulamento.xsd"> reggulamento  (xsd) </deliverable>
+        <deliverable url="regulamento.xsd"> reggulamento  (xsd) </deliverable>
+     
+       
+        
+    </deliverables>
+</pr>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+
+    <xs:simpleType name="produto">
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="Frutas e Legumes"/>
+            <xs:enumeration value="Outros"/>
+            <xs:enumeration value="Carne"/>
+            <xs:enumeration value="Peixe"/>
+            <xs:enumeration value="Padaria"/>
+            <xs:enumeration value="Limpeza"/>
+            <xs:enumeration value="Enlatados"/>
+            <xs:enumeration value="Laticinios"/>
+            <xs:enumeration value="Condimentos"/>
+            <xs:enumeration value="Higiene"/>
+            <xs:enumeration value="Doces"/>
+            <xs:enumeration value="Bolachas"/>
+        </xs:restriction>
+    </xs:simpleType>
+    <xs:element name="ListaCompras">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element maxOccurs="unbounded" name="produto">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="designacao" type="xs:string"/>
+                            <xs:element name="categoria" type="produto"/>
+                            <xs:element name="quantidade">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="valor" type="xs:decimal"/>
+                                        <xs:element name="unidade" type="xs:string"/>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                            <xs:element name="precoRef" type="xs:decimal"> </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>
