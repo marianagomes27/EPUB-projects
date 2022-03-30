@@ -1,0 +1,427 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+  <xs:element name="root">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element maxOccurs="unbounded" ref="item"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="item">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:sequence minOccurs="0">
+          <xs:element ref="nivel"/>
+          <xs:element ref="pai"/>
+        </xs:sequence>
+        <xs:choice minOccurs="1" maxOccurs="unbounded">
+          <xs:element ref="codigo"/>
+          <xs:element ref="titulo"/>
+          <xs:element ref="descricao"/>
+          <xs:element ref="donos"/>
+          <xs:element ref="exemplosNotasAp"/>
+          <xs:element ref="idRel"/>
+          <xs:element ref="notasAp"/>
+          <xs:element ref="notasEx"/>
+          <xs:element ref="participantes"/>
+          <xs:element ref="procTrans"/>
+          <xs:element ref="processosRelacionados"/>
+          <xs:element ref="subdivisao4Nivel01Sintetiza02"/>
+          <xs:element ref="temSubclasses4Nivel"/>
+          <xs:element ref="temSubclasses4NivelDF"/>
+          <xs:element ref="temSubclasses4NivelPCA"/>
+          <xs:element ref="termosInd"/>
+          <xs:element ref="tipoProc"/>
+          <xs:element ref="tipoRel"/>
+        </xs:choice>
+        <xs:choice minOccurs="1" maxOccurs="unbounded">
+          <xs:element ref="conteudo"/>
+          <xs:element ref="criterio"/>
+          <xs:element ref="df"/>
+          <xs:element ref="legislacao"/>
+          <xs:element ref="pca"/>
+          <xs:element ref="processos"/>
+          <xs:element ref="tipoId"/>
+        </xs:choice>
+        <xs:choice minOccurs="0">
+          <xs:element ref="legId"/>
+          <xs:sequence>
+            <xs:element ref="idNota"/>
+            <xs:element ref="nota"/>
+          </xs:sequence>
+        </xs:choice>
+        <xs:element minOccurs="0" ref="tipo"/>
+        <xs:sequence minOccurs="0">
+          <xs:element ref="sumario"/>
+          <xs:element ref="numero"/>
+          <xs:element ref="idLeg"/>
+        </xs:sequence>
+        <xs:element minOccurs="0" ref="participLabel"/>
+        <xs:element minOccurs="0" ref="sigla"/>
+        <xs:element minOccurs="0" ref="idDono"/>
+        <xs:choice minOccurs="1" maxOccurs="unbounded">
+          <xs:element ref="designacao"/>
+          <xs:element ref="idTipo"/>
+        </xs:choice>
+        <xs:element minOccurs="0" ref="id"/>
+        <xs:choice minOccurs="0">
+          <xs:element ref="idParticipante"/>
+          <xs:element ref="procId"/>
+          <xs:sequence>
+            <xs:element ref="idExemplo"/>
+            <xs:element ref="exemplo"/>
+          </xs:sequence>
+          <xs:sequence>
+            <xs:element ref="idTI"/>
+            <xs:element ref="termo"/>
+          </xs:sequence>
+        </xs:choice>
+      </xs:sequence>
+      <xs:attribute name="index" use="required" type="xs:string"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="nivel" type="xs:string"> </xs:element>
+  <xs:element name="pai">
+    <xs:complexType>
+      <xs:sequence minOccurs="0">
+        <xs:element ref="codigo"/>
+        <xs:element ref="titulo"/>
+      </xs:sequence>
+      <xs:attribute name="type" use="required" type="xs:string"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="descricao">
+    <xs:complexType mixed="true">
+      <xs:attribute name="type" use="required" type="xs:string"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="donos">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" maxOccurs="unbounded" ref="item"/>
+      </xs:sequence>
+      <xs:attribute name="type" use="required" type="xs:string"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="exemplosNotasAp">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" maxOccurs="unbounded" ref="item"/>
+      </xs:sequence>
+      <xs:attribute name="type" use="required" type="xs:string"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="idRel" type="xs:string"> </xs:element>
+  <xs:element name="notasAp">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" maxOccurs="unbounded" ref="item"/>
+      </xs:sequence>
+      <xs:attribute name="type" use="required" type="xs:string"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="notasEx">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" maxOccurs="unbounded" ref="item"/>
+      </xs:sequence>
+      <xs:attribute name="type" use="required" type="xs:string"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="participantes">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" maxOccurs="unbounded" ref="item"/>
+      </xs:sequence>
+      <xs:attribute name="type" use="required" type="xs:string"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="procTrans">
+    <xs:complexType mixed="true">
+      <xs:attribute name="type" use="required" type="xs:string"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="processosRelacionados">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" maxOccurs="unbounded" ref="item"/>
+      </xs:sequence>
+      <xs:attribute name="type" use="required" type="xs:string"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="subdivisao4Nivel01Sintetiza02">
+    <xs:complexType>
+      <xs:simpleContent>
+        <xs:extension base="xs:boolean">
+          <xs:attribute name="type" use="required" type="xs:string"/>
+        </xs:extension>
+      </xs:simpleContent>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="temSubclasses4Nivel">
+    <xs:complexType>
+      <xs:simpleContent>
+        <xs:extension base="xs:boolean">
+          <xs:attribute name="type" use="required" type="xs:string"/>
+        </xs:extension>
+      </xs:simpleContent>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="temSubclasses4NivelDF">
+    <xs:complexType>
+      <xs:simpleContent>
+        <xs:extension base="xs:boolean">
+          <xs:attribute name="type" use="required" type="xs:string"/>
+        </xs:extension>
+      </xs:simpleContent>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="temSubclasses4NivelPCA">
+    <xs:complexType>
+      <xs:simpleContent>
+        <xs:extension base="xs:boolean">
+          <xs:attribute name="type" use="required" type="xs:string"/>
+        </xs:extension>
+      </xs:simpleContent>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="termosInd">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" maxOccurs="unbounded" ref="item"/>
+      </xs:sequence>
+      <xs:attribute name="type" use="required" type="xs:string"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="tipoProc">
+    <xs:complexType mixed="true">
+      <xs:attribute name="type" use="required" type="xs:string"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="tipoRel">
+    <xs:complexType>
+      <xs:simpleContent>
+        <xs:extension base="xs:anyURI">
+          <xs:attribute name="type" use="required" type="xs:string"/>
+        </xs:extension>
+      </xs:simpleContent>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="conteudo">
+    <xs:complexType mixed="true">
+      <xs:attribute name="type" use="required" type="xs:string"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="criterio">
+    <xs:complexType>
+      <xs:simpleContent>
+        <xs:extension base="xs:anyURI">
+          <xs:attribute name="type" use="required" type="xs:string"/>
+        </xs:extension>
+      </xs:simpleContent>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="df">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" ref="idJust"/>
+        <xs:element ref="valor"/>
+        <xs:element minOccurs="0" ref="idDF"/>
+        <xs:element minOccurs="0" ref="nota"/>
+        <xs:element minOccurs="0" ref="justificacao"/>
+      </xs:sequence>
+      <xs:attribute name="type" use="required" type="xs:NCName"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="valor" type="xs:string"> </xs:element>
+  <xs:element name="idDF">
+    <xs:complexType>
+      <xs:simpleContent>
+        <xs:extension base="xs:anyURI">
+          <xs:attribute name="type" use="required" type="xs:string"/>
+        </xs:extension>
+      </xs:simpleContent>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="legislacao">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" maxOccurs="unbounded" ref="item"/>
+      </xs:sequence>
+      <xs:attribute name="type" use="required" type="xs:string"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="pca">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:choice maxOccurs="unbounded">
+          <xs:element ref="idJust"/>
+          <xs:element ref="formaContagem"/>
+          <xs:element ref="idPCA"/>
+          <xs:element ref="notas"/>
+          <xs:element ref="valores"/>
+        </xs:choice>
+        <xs:element minOccurs="0" ref="subFormaContagem"/>
+        <xs:element minOccurs="0" ref="justificacao"/>
+      </xs:sequence>
+      <xs:attribute name="type" use="required" type="xs:string"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="formaContagem">
+    <xs:complexType mixed="true">
+      <xs:attribute name="type" use="required" type="xs:string"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="idPCA">
+    <xs:complexType>
+      <xs:simpleContent>
+        <xs:extension base="xs:anyURI">
+          <xs:attribute name="type" use="required" type="xs:string"/>
+        </xs:extension>
+      </xs:simpleContent>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="notas">
+    <xs:complexType mixed="true">
+      <xs:attribute name="type" use="required" type="xs:string"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="valores">
+    <xs:complexType mixed="true">
+      <xs:attribute name="type" use="required" type="xs:string"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="subFormaContagem">
+    <xs:complexType mixed="true">
+      <xs:attribute name="type" use="required" type="xs:string"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="processos">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" maxOccurs="unbounded" ref="item"/>
+      </xs:sequence>
+      <xs:attribute name="type" use="required" type="xs:string"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="tipoId">
+    <xs:complexType>
+      <xs:simpleContent>
+        <xs:extension base="xs:string">
+          <xs:attribute name="type" type="xs:string"/>
+        </xs:extension>
+      </xs:simpleContent>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="legId" type="xs:string"> </xs:element>
+  <xs:element name="idNota">
+    <xs:complexType>
+      <xs:simpleContent>
+        <xs:extension base="xs:anyURI">
+          <xs:attribute name="type" use="required" type="xs:string"/>
+        </xs:extension>
+      </xs:simpleContent>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="tipo">
+    <xs:complexType>
+      <xs:simpleContent>
+        <xs:extension base="xs:anyURI">
+          <xs:attribute name="type" use="required" type="xs:string"/>
+        </xs:extension>
+      </xs:simpleContent>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="sumario">
+    <xs:complexType mixed="true">
+      <xs:attribute name="type" use="required" type="xs:string"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="numero">
+    <xs:complexType>
+      <xs:simpleContent>
+        <xs:extension base="xs:anyURI">
+          <xs:attribute name="type" use="required" type="xs:string"/>
+        </xs:extension>
+      </xs:simpleContent>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="idLeg" type="xs:string"> </xs:element>
+  <xs:element name="participLabel" type="xs:string"> </xs:element>
+  <xs:element name="sigla" type="xs:string"> </xs:element>
+  <xs:element name="idDono" type="xs:string"> </xs:element>
+  <xs:element name="designacao">
+    <xs:complexType mixed="true">
+      <xs:attribute name="type" use="required" type="xs:NCName"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="idTipo" type="xs:string"> </xs:element>
+  <xs:element name="id">
+    <xs:complexType>
+      <xs:simpleContent>
+        <xs:extension base="xs:anyURI">
+          <xs:attribute name="type" use="required" type="xs:string"/>
+        </xs:extension>
+      </xs:simpleContent>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="idParticipante" type="xs:string"> </xs:element>
+  <xs:element name="procId" type="xs:string"> </xs:element>
+  <xs:element name="idExemplo">
+    <xs:complexType>
+      <xs:simpleContent>
+        <xs:extension base="xs:anyURI">
+          <xs:attribute name="type" use="required" type="xs:string"/>
+        </xs:extension>
+      </xs:simpleContent>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="exemplo">
+    <xs:complexType mixed="true">
+      <xs:attribute name="type" use="required" type="xs:string"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="idTI">
+    <xs:complexType>
+      <xs:simpleContent>
+        <xs:extension base="xs:anyURI">
+          <xs:attribute name="type" use="required" type="xs:string"/>
+        </xs:extension>
+      </xs:simpleContent>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="termo">
+    <xs:complexType mixed="true">
+      <xs:attribute name="type" use="required" type="xs:string"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="codigo" type="xs:string"> </xs:element>
+  <xs:element name="titulo">
+    <xs:complexType mixed="true">
+      <xs:attribute name="type" use="required" type="xs:string"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="idJust" type="xs:string"> </xs:element>
+  <xs:element name="nota">
+    <xs:complexType mixed="true">
+      <xs:attribute name="type" use="required" type="xs:string"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="justificacao">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" maxOccurs="unbounded" ref="item"/>
+      </xs:sequence>
+      <xs:attribute name="type" use="required" type="xs:string"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:simpleType name="array">
+    <xs:restriction base="xs:string"/>
+  </xs:simpleType>
+  <xs:simpleType name="object">
+    <xs:restriction base="xs:string"/>
+  </xs:simpleType>
+  <xs:simpleType name="number">
+    <xs:restriction base="xs:string"/>
+  </xs:simpleType>
+</xs:schema>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pr SYSTEM "file:/C:/Users/Mariana/Desktop/4%C2%BA%20ano-1%C2%BA%20semestre/Publica%C3%A7%C3%A3o%20Eletr%C3%B3nica/aula%203-27-09-19/PR.dtd">
+<pr>
+    <metadata>
+        <keyname> EPUB2019-A83222-T8</keyname>
+        <title> Construção de esquemas para ficheiros XML </title>
+        <subtitle> Relatório integrado na Unidade Curricular de Publicação Elétronica-TP8 </subtitle>
+        <bdate>18/10/2019</bdate>
+        <edate>23/10/2019</edate>
+        <supervisor>
+            <name>José Carlos Ramalho</name>
+            <homepage>http://www4.di.uminho.pt/~jcr/</homepage>
+        </supervisor>
+    </metadata>
+    <workteam>
+        <member>
+            <name>Mariana Pereira Duarte Ferreira Gomes</name>
+            <mid>A83222</mid>
+            <email>a83222@alunos.uminho.pt</email>
+            <photo path="fotopr.png" />
+        </member>
+    </workteam>
+    <abstract>
+        <p>O presente trabalho de casa consistiu, primeiramente, em realizar o XDS (XML Schema Definition) para dois ficheiros XML, fornecidos pelo docente: CLAV-processos-arvore e CLAV-processos-info-completa. De seguida, 
+        foi-nos proposto analisar ambos os schemas, comparando-os e tirarando conclusões acerca das mesmos. </p>
+        <p> Inicialmente, procedeu-se à análise dos XML's fornecidos, que continham as informações necessárias à construção de cada um dos schemas. Os schemas permitiram, então, representar 
+            as caraterísticas de cada elemento, bem como a relação entre os elementos e ainda os atributos associados aos mesmos. Os pricipais tipos de elementos/atributos encontrados foram
+            os seguintes: string, boolean, ID, array, object, number, etc.  </p>
+        <p> Fazendo uma análise global relativamente a cada um dos schemas construídos, foi possível concluir sobre as principais diferenças entre ambos. Desta forma, destaca-se como principal
+            diferença, o facto de na constituição do <i> XSD </i> CLAV-processos-arvore estar presente um elemento "filhos", sendo que o mesmo não se encontra no segundo XSD. Este elemento é do tipo array, o que
+        lhe permite armazenar uma coleção de elementos, de modo a que cada elemento possa ser identificado por um index (indice), o que faz com que a sua inserção seja vantajosa no sentido em que permite uma melhor organização estrutural
+        tanto do XML como do XSD. 
+      </p>
+            
+            
+   
+      
+    </abstract>
+    <deliverables>
+        <deliverable url="pr8.xml"> Project Record (XML)</deliverable>
+        <deliverable url="clav-processos-arvore.xsd"> Clav-Processos-Árvore(XSD)</deliverable>
+        <deliverable url="clav-processos-info-completa.xsd"> Clav-Processos-Infor-Completa(XSD)</deliverable>
+        
+       
+        
+    </deliverables>
+</pr>
